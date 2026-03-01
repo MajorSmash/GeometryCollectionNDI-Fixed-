@@ -30,7 +30,7 @@ The comparable `NiagaraDataInterfacePhysicsAsset` avoids all of this by storing 
 2. In the Parameters panel, find the parameter of type **Geometry Collection**
 3. Change its type to **Geometry Collection (Fixed)** (it sits right next to the original in the list)
 4. Configure the same properties you had before (Source Mode, Default Geometry Collection, Source Actor, etc.)
-5. All function names and signatures are identical -- no rewiring needed
+5. All function names and signatures are identical -- you will just need to use the fixed versions.
 
 ## Removal
 
