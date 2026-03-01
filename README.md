@@ -2,6 +2,8 @@
 
 Drop-in replacement for `UNiagaraDataInterfaceGeometryCollection` that fixes per-frame heap memory leaks when used with GPU Niagara emitters. Temporary workaround until Epic ships an engine fix.
 
+This bug has been submitted to Epic Games: Case#23920065
+
 ## The Problem
 
 The engine's Geometry Collection Data Interface (`ChaosNiagara` plugin) leaks heap memory every frame when used with GPU emitters. The root cause is `FNDIGeometryCollectionArrays` being stored as a raw pointer that gets `new`'d each frame in `ProvidePerInstanceDataForRenderThread` but never freed when overwritten. Secondary leaks exist in `Init()` (no cleanup before reallocation) and at destruction (game-thread `AssetArrays` never freed).
