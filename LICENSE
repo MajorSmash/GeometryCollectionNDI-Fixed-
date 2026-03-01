@@ -1,4 +1,4 @@
-MIT License
+MIT License (for my quite minor original contributions)
 
 Copyright (c) 2026 MajorSmash
 
@@ -19,3 +19,16 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+NOTICE: This plugin is designed for use with Unreal Engine 5 and references 
+Epic Games' Niagara and GeoCollection NDI systems. The vast majority of the 
+underlying code is the property of Epic Games, Inc. and is subject to the 
+Unreal Engine End User License Agreement (EULA).
+
+By using this plugin, you acknowledge that:
+1. You must hold a valid Unreal Engine license from Epic Games.
+2. Epic Games' EULA governs your use of any Unreal Engine code and systems.
+3. This plugin is a temporary workaround for a known bug and may become 
+   obsolete when Epic issues an official fix.
+
+This plugin is not affiliated with, endorsed by, or sponsored by Epic Games.
