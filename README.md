@@ -23,7 +23,7 @@ The comparable `NiagaraDataInterfacePhysicsAsset` avoids all of this by storing 
 
 1. Copy the `Plugins/GeoCollectionNDIFix` folder into your project's `Plugins/` directory 
 
-(NOTE: If no Plugin folder already exists, you can add one in the `Root` folder/same one `Content` is in).
+(NOTE: If no `Plugins` folder already exists, you can add one in the `Root` folder/same one `Content` is in).
 
 2. Rebuild your project (or restart the editor and let it compile)
 3. Enable the **GeoCollectionNDIFix** plugin in Edit > Plugins if it isn't enabled automatically
